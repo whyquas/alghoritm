@@ -1,7 +1,14 @@
+import java.util.Scanner;
+
 class MinFinder {
     public static void main(String[] args) {
-        int[] arr = {3, 1, 4, 1, 5, 9};
-        System.out.println("Minimum: " + findMin(arr, arr.length));
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter array size: ");
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        System.out.println("Enter elements:");
+        for (int i = 0; i < n; i++) arr[i] = scanner.nextInt();
+        System.out.println("Minimum: " + findMin(arr, n));
     }
     public static int findMin(int[] arr, int n) {
         if (n == 1) return arr[0];
