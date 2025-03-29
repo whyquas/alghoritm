@@ -1,3 +1,8 @@
+/*
+ Computes the power of a number (a^n) using recursion.
+ Time Complexity: O(n)
+*/
+
 import java.util.Scanner;
 
 class PowerCalculator {

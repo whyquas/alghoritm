@@ -1,3 +1,8 @@
+/*
+ Checks if all digits of a number are the same using recursion.
+ Time Complexity: O(log n)
+*/
+
 import java.util.Scanner;
 
 class DigitChecker {

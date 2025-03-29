@@ -1,3 +1,8 @@
+/*
+ Checks if a number is prime using recursion.
+ Time Complexity: O(n)
+*/
+
 import java.util.Scanner;
 
 class PrimeChecker {

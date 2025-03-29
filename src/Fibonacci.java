@@ -1,3 +1,8 @@
+/*
+ Computes the nth Fibonacci number using recursion.
+ Time Complexity: O(2^n)
+*/
+
 import java.util.Scanner;
 
 class FibonacciFinder {

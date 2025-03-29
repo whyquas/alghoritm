@@ -1,3 +1,8 @@
+/*
+ Computes the factorial of a number recursively.
+ Time Complexity: O(n)
+*/
+
 import java.util.Scanner;
 
 class FactorialCalculator {

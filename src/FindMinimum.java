@@ -1,3 +1,8 @@
+/*
+ Finds the minimum element in an array using recursion.
+ Time Complexity: O(n)
+*/
+
 import java.util.Scanner;
 
 class MinFinder {

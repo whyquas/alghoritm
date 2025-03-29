@@ -1,3 +1,8 @@
+/*
+ Computes the binomial coefficient C(n, k) using recursion.
+ Time Complexity: O(2^n)
+*/
+
 import java.util.Scanner;
 
 class BinomialCoefficientCalculator {

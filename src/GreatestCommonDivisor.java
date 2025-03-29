@@ -1,3 +1,8 @@
+/*
+ Computes the greatest common divisor (GCD) using recursion.
+ Time Complexity: O(log n)
+*/
+
 import java.util.Scanner;
 
 class GCDCalculator {

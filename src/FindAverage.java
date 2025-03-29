@@ -1,3 +1,8 @@
+/*
+ Computes the average of an array recursively.
+ Time Complexity: O(n)
+*/
+
 import java.util.Scanner;
 
 class AverageFinder {
