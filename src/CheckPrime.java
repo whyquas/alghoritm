@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 class PrimeChecker {
     public static void main(String[] args) {
-        int n = 29;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int n = scanner.nextInt();
         System.out.println(n + " is prime: " + isPrime(n, n - 1));
     }
     public static boolean isPrime(int n, int divisor) {
