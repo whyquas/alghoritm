@@ -34,15 +34,9 @@ Locate the class for the problem you want to run.
 
 Right-click the file and select Run 'ClassName.main()'.
 
-Follow the prompts to input data as required.
 
-Requirements
 
-Java Development Kit (JDK) 8 or later.
-
-IntelliJ IDEA or another Java IDE.
-
-Example Usage
+Example Usage:
 
 Enter array size: 5
 Enter elements:
