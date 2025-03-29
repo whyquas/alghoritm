@@ -8,7 +8,7 @@ import java.util.Scanner;
 class DigitChecker {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a string: ");
+        System.out.print("");
         String s = scanner.next();
         System.out.println("All digits: " + isAllDigits(s, 0));
     }
